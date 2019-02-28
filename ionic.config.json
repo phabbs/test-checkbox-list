@@ -1,0 +1,7 @@
+{
+  "name": "test-checkbox-list",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
