@@ -6,7 +6,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:ios": "ionic cordova run ios --target='iPhone-7, 12.1' -- -buildFlag='-UseModernBuildSystem=0'",
     "build": "ng build",
+    "build:ios": "ionic cordova build ios -- -buildFlag='-UseModernBuildSystem=0'",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
